@@ -10,9 +10,7 @@ class Solution {
 
             else if(nums[i] != nums[j]){
                 i++;
-                int temp = nums[i];
                 nums[i] = nums[j];
-                nums[j] = temp;
                 j++;
             }
         }
